@@ -11,6 +11,9 @@
 |
 */
 
+/*
+ * Returns the main view of angular
+ */
 Route::get('/', function () {
-    return view('welcome');
+    return View::make('index');
 });
